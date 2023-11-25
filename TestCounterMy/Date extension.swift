@@ -7,7 +7,7 @@
 
 import UIKit
 
-public extension Date {
+ extension Date {
     var fullDate:String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "Дата: dd.MM.YY Время: HH:mm:ss"
